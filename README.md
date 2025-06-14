@@ -1,4 +1,4 @@
-# 🏥 Doctor Appointment Management System
+# 🏥 DocAppoint
 
 A comprehensive web-based appointment management system built with PHP and MySQL that streamlines the process of booking, managing, and tracking medical appointments between patients and healthcare providers.
 
