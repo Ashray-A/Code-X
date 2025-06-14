@@ -101,7 +101,7 @@ $sdata=$_POST['searchdata'];
                             
                                 <tbody>
                   <?php
-             
+// sql query to select any related appointments as per kyword.             
 $sql="SELECT * from tblappointment where AppointmentNumber like '$sdata%' || Name like '$sdata%' || MobileNumber like '$sdata%'";
 $query = $dbh -> prepare($sql);
 $query->execute();
