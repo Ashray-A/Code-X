@@ -8,7 +8,7 @@ A comprehensive web-based appointment management system built with PHP and MySQL
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## 📋 Table of Contents
-
+  
 - [Features](#-features)
 - [Demo](#-demo)
 - [Installation](#-installation)
