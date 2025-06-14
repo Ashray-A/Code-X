@@ -101,7 +101,7 @@ $sdata=$_POST['searchdata'];
                             
                                 <tbody>
                   <?php
-// sql query to select any related appointments as per kyword.             
+// sql query to select any related appointments as per keyword.             
 $sql="SELECT * from tblappointment where AppointmentNumber like '$sdata%' || Name like '$sdata%' || MobileNumber like '$sdata%'";
 $query = $dbh -> prepare($sql);
 $query->execute();
@@ -154,7 +154,7 @@ $cnt=$cnt+1;
              
         </main>
         <?php include_once('includes/footer.php');?>
-        <!-- JAVASCRIPT FILES -->
+        <!-- CONNECTION TO JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
@@ -162,3 +162,4 @@ $cnt=$cnt+1;
         <script src="js/custom.js"></script>
     </body>
 </html>
+                        
